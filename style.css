@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Baloo Bhaina 2', cursive; 
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height : 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.logo img{
+    width: 48px;
+    padding: 0 18px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive; 
+    display: flex;
+    margin: 23px auto;
+    width: 100%;
+    border-radius: 12px;
+    background-image: url(bg.jpg);
+}
+.bottom{
+    position:sticky;
+    height: 100px;
+    background-color:black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 12px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width : 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 34px;
+}
+.songItem{
+    height: 76px;
+    display: flex;
+    background-color: white;
+    width: 129%;
+    color:black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.songItem img {
+    width: 43px;
+    margin: 0 23px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    font-family: 'Baloo Bhaina 2', cursive; 
+}
